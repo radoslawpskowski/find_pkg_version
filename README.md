@@ -27,17 +27,21 @@ Połączenia są realizowane bez weryfikacji certyfikatu SSL (verify=False) – 
 Dane logowania do API są zapisane w kodzie – zalecane jest ich przeniesienie do zmiennych środowiskowych lub pliku .env.
 
 ✅ Przykładowe użycie:
-ruby
-Kopiuj
-Edytuj
 $ python3 find_pkg.py
 wprowadz nazwe poszukiwanego pakietu: perl-Git
+
 host01
+
 nazwa pakietu perl-Git wersja 2.43.0-150600.3.6.1
+
 host02
+
 nazwa pakietu perl-Git wersja 2.43.0-150600.3.6.1
+
 host03
+
 nazwa pakietu perl-Git wersja 2.43.5-3.el8_10
+
 📦 Wymagania:
 Python 3
 
